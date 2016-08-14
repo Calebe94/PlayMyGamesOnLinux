@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Alice: Madness Returns
+GenericName=Alice
+Type=Application
+Exec=/usr/bin/Alice
+Icon=playonlinux
+Categories=Game;
+Name[pt_BR]=Alice

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Mafia II
+GenericName=Mafia
+Type=Application
+Exec=/usr/bin/MafiaII
+Icon=playonlinux
+Categories=Game;
