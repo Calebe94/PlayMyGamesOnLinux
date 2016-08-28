@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=SEGA Mega Drive & Genesis Classics
+GenericName=SEGA Classics
+Type=Application
+Exec=/usr/bin/SEGAClassics
+Icon=playonlinux
+Categories=Game;
+Name[pt_BR]=SEGAClassics

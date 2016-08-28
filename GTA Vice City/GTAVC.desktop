@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Grand Thieft Auto Vice City
+GenericName=GTA Vice City
+Type=Application
+Exec=/usr/bin/GTAVC
+Icon=playonlinux
+Categories=Game;
+Name[pt_BR]=GTAVC

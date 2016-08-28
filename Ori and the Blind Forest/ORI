@@ -26,9 +26,9 @@ export PATH="$WINEVERSION/bin:$PATH"
 # Define Steam location and game location here.
 # NOTE: GAME_DIR is not used with current method. Possibly remove?
 STEAM_DIR="$WINEPREFIX/drive_c/Program Files/Steam"
-GAME_APPID="19680"
-GAME_DIR="/home/steam/.PlayOnLinux/wineprefix/Steam/drive_c/Program\ Files/Steam/steamapps/common/Alice\ Madness\ Returns/Binaries/Win32/"
-GAME_EXE="AliceMadnessReturns.exe"
+GAME_APPID="261570"
+GAME_DIR="/home/steam/.PlayOnLinux/wineprefix/Steam/drive_c/Program\ Files/Steam/steamapps/common/Ori/"
+GAME_EXE="ori.exe"
 
 ###########################################
 #                                         #

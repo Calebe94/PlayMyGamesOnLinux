@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Saints Row The Third
+GenericName=Saints Row The Third
+Type=Application
+Exec=/usr/bin/SAINTSROW3
+Icon=playonlinux
+Categories=Game;
+Name[pt_BR]=SAINTSROW3

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Dirt3 Complete Edition
+GenericName=Dirt3
+Type=Application
+Exec=/usr/bin/Dirt3
+Icon=playonlinux
+Categories=Game;
+Name[pt_BR]=Dirt3

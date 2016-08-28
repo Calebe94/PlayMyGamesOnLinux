@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Serious Sam 2
+GenericName=Serious Sam 2
+Type=Application
+Exec=/usr/bin/SS2
+Icon=playonlinux
+Categories=Game;
+Name[pt_BR]=SS2

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Batman Arkham Origins
+GenericName=Batman Arkham Origins
+Type=Application
+Exec=/usr/bin/BatAO
+Icon=playonlinux
+Categories=Game;
+Name[pt_BR]=Batman Arkham Origins
