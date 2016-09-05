@@ -1,0 +1,25 @@
+BTN_SOUTH=a	
+BTN_EAST=b
+BTN_SELECT=back
+BTN_START=start
+BTN_TL=lb
+BTN_TR=rb
+BTN_Z=lt
+BTN_RZ=rt
+BTN_THUMBL=tl
+BTN_THUMBR=tr
+ABS_X=x1
+BTN_NORTH=x
+BTN_WEST=y
+ABS_Y=y1
+ABS_RX=x2
+ABS_RY=y2
+ABS_HAT0X=dpad_x
+ABS_HAT0Y=dpad_y
+-Y1=Y1
+-Y2=Y2
+xboxdrv --evdev /dev/input/event15 --evdev-absmap
+ABS_X=x1,ABS_Y=y1,ABS_RX=x2,ABS_RY=y2,ABS_HAT0X=dpad_x,ABS_HAT0Y=dpad_y --axismap -Y1=Y1,-Y2=Y2 --evdev-keymap
+BTN_NORTH=x,BTN_WEST=y,BTN_SOUTH=a,BTN_EAST=b,BTN_SELECT=back,BTN_START=star
+t,BTN_TL=lb,BTN_TR=rb,BTN_Z=lt,BTN_RZ=rt,BTN_THUMBL=tl,BTN_THUMBR=tr --mimic-
+xpad --silent &
