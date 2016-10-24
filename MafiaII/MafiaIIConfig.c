@@ -8,8 +8,8 @@ char data[512],cwd[1024];
 int main() {
 	int selec=0;
 	do{
-		printf("Selecione uma Opção:\n");
-		printf("[1]- To Install ");
+		printf("Select an Option:\n");
+		printf("[1]- To Install \n");
 		scanf("%d",&selec);
 		if(selec ==1){
 			if (getcwd(cwd, sizeof(cwd)) != NULL){
