@@ -1,0 +1,38 @@
+#!/bin/bash
+
+export WINEPREFIX="/home/calebe94/.PlayOnLinux/wineprefix/Steam"
+export WINEDEBUG="-all"
+WINEVERSION="$HOME/.PlayOnLinux/wine/linux-x86/1.9.20"
+
+STEAM_DIR="$WINEPREFIX/drive_c/Program Files/Steam"
+GAME_APPID="227600"
+GAME_DIR="$STEAM_DIR/drive_c/Program\ Files/Steam/steamapps/common/Castle\ of\ Illusion/"
+GAME_EXE="COI.exe"
+
+env -i DISPLAY=$DISPLAY WINEPREFIX=$WINEPREFIX WINEDEBUG=$WINEDEBUG 
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH PATH=$PATH \
+"$WINEVERSION/bin/wine" $VIRT_DESK "$STEAM_DIR/Steam.exe" -applaunch "$GAME_APPID" &
+
+while [ -n "$(pgrep -lf $GAME_EXE)" ]; do
+  sleep 2
+done;
+
+echo "$GAME_EXE has exited"
+
+# Shut down the Windows Steam client.
+echo "Shutting down Steam"
+if [ -n "$(pgrep -lf Steam\.exe)" ]; then
+  "$WINEVERSION/bin/wine" $VIRT_DESK "$STEAM_DIR/Steam.exe" -shutdown
+
+  # Wait for Steam client to close completely.
+  while pgrep -lf "Steam\.exe"; do
+    sleep 2
+  done;
+fi;
+
+echo "Steam shutdown"
+
+echo "Killing wine server" 
+# Kill Wine server so Steam will properly return to the library interface.
+"$WINEVERSION/bin/wineserver" -k
+

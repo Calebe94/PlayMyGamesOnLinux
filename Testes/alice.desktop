@@ -1,0 +1,2 @@
+[Desktop Entry]
+Exec=bash -c '/home/calebe94/Projetos/PlayMyGamesOnLinux/Testes/./alice $SHELL'
