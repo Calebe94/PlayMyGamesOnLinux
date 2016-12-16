@@ -1,0 +1,6 @@
+Creating a Pipe:
+	https://www.gnu.org/software/libc/manual/html_node/Creating-a-Pipe.html#Creating-a-Pipe
+Running a Command:
+	https://www.gnu.org/software/libc/manual/html_node/Running-a-Command.html#Running-a-Command
+Systems Programming:	Unix/Linux with C - Files and Directories
+	http://www.cs.ccsu.edu/~stan/classes/CS355/notes14/04-FilesAndDirectories.html

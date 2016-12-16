@@ -15,3 +15,5 @@ Psychonauts
 *Serious Sam 2
 Spore
 The Witcher: Enhanced Edition
+
+Essetial Read in GNU_C_LIBRARY.txt file
